@@ -29,7 +29,11 @@ You need to place some **extra markup** to your navigational elements. Let us ta
 To set it off, you would need to call it on the containing element `$('div').keyboardNavigate()`. **<kbd>esc</kbd>**, for example, would trigger a call to the href of the *Home*-element.
 
 Full syntax:
+
   - Next: j, n or &rarr;
+
   - Previous: k, p or &larr;
+
   - Up one level: &uarr; or esc
+  
   - Down one level: &darr;
