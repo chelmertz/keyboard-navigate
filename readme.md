@@ -11,4 +11,4 @@ Lightweight plugin to apply keyboard supported navigation through commonly used 
 
 could be translated with `$('ul').keyboardNavigate()`.
 
-This would let <kbd>&rarr;</kbd>, <kbd>n</kbd> or <kbd>j</kbd> go to page2.
+This would let **<kbd>&rarr;</kbd>**, **<kbd>n</kbd>** or **<kbd>j</kbd>** go to page2.
