@@ -18,11 +18,11 @@ This would let **<kbd>&rarr;</kbd>**, **<kbd>n</kbd>** or **<kbd>j</kbd>** go to
 You need to place some **extra markup** to your navigational elements. Let us go over that previous example potential next step:
 
 	<div>
-		<a **class="up"** href="/">Home</a>
+		<a class="up" href="/">Home</a>
 		<ul>
-			<li><a **class="previous"** href="?page=2">Previous</a></li>
+			<li><a class="previous" href="?page=2">Previous</a></li>
 			<li>Previous<li>
-			<li><a **class="next"** href="?page=3">Next</a></li>
+			<li><a class="next" href="?page=3">Next</a></li>
 		</ul>
 	</div>
 

@@ -1,8 +1,7 @@
 jQuery.fn.keyboardNavigate = function(options) {
 	var navigationContainer = this;
 
-	var possibleNavigation = this.find('a');
-	if(!possibleNavigation.length) {
+	if(!this.has('a').length) {
 		return this;
 	}
 
