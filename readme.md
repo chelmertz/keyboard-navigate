@@ -54,4 +54,4 @@ You can provide the following options when initializing the plugin:
 
     - (object)
 
-The initialization would then follow the signature `$('#navigation_container').keyboardNavigate({ callback: function() {}, keyMap: {}};`
+The initialization would then follow the signature `$('#navigation_container').keyboardNavigate({ callback: function() {}, keyMap: {}});`
