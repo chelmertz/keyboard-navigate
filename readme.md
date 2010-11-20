@@ -15,7 +15,7 @@ This would let **<kbd>&rarr;</kbd>**, **<kbd>n</kbd>** or **<kbd>j</kbd>** go to
 
 ## Syntax
 
-You need to place some **extra markup** to your navigational elements. Let us go over that previous example potential next step:
+You need to place some **extra markup** to your navigational elements. Let us take that previous example to the next step:
 
 	<div>
 		<a class="up" href="/">Home</a>
