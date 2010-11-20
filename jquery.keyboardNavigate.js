@@ -22,9 +22,9 @@ jQuery.fn.keyboardNavigate = function(options) {
 		if(!$.inArray(keyPressed, keyMap)) {
 			return;
 		}
-		var newHref = navigationContainer.find('a.'+keyMap[keyPressed]).attr('href');
-		if(newHref) {
-			window.location.href = newHref;
+		var affectedElement = navigationContainer.find('a.'+keyMap[keyPressed]);
+		if(affectedElement.length) {
+			window.location.href = affectedElement.attr('href');
 		}
 	});
 
