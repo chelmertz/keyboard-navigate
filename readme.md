@@ -36,4 +36,20 @@ Full syntax:
 
   - Up one level: &uarr; or esc
   
-  - Down one level: &darr;
+ - Down one level: &darr;
+
+## Options
+
+You can provide the following options when initializing the plugin:
+
+  - `callback = function(keyPressed, keyMap, event)`
+
+    - (int) keyPressed
+
+    - (object) keyMap
+
+    - (object) event
+
+  - `keyMap`
+
+    - (object)
