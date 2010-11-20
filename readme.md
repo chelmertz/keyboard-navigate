@@ -53,3 +53,5 @@ You can provide the following options when initializing the plugin:
   - `keyMap`
 
     - (object)
+
+The initialization would then follow the signature `$('#navigation_container').keyboardNavigate({ callback: function() {}, keyMap: {}};`
